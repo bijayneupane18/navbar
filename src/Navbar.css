@@ -46,6 +46,25 @@
    display: none;
 }
 
+.navbar-drawer{
+    padding: 10px;
+    background-color: rgb(222, 89, 89);
+    height: 100%;
+    width: 250px;
+}
+
+.navbar-drawer-list{
+    margin-top: 50px;
+    list-style: none;
+    color: white;
+}
+
+.navbar-drawer-btn{
+    background-color: rgb(222, 89, 89);
+    border: none;
+    color: white;
+    float: right;
+}
 
 @media screen and (max-width: 600px) {
     

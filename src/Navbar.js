@@ -2,6 +2,7 @@ import React, {useState,useEffect} from 'react'
 import './Navbar.css'
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import { Drawer } from '@mui/material';
+import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 
 const Navbar = () => {
     const[show, handleShow] = useState(false);
@@ -44,7 +45,18 @@ const Navbar = () => {
             onClose={()=>showDrawer(false)}
 
           >
-         <p>prakash</p>
+          <div className='navbar-drawer'>
+            <button className='navbar-drawer-btn' onClick={()=>{showDrawer(false)}}>
+              <CloseOutlinedIcon fontSize='small'/>
+            </button>
+            <ul className='navbar-drawer-list'>
+              <li>Sprite</li><br></br>
+              <li>Fanta</li><br></br>
+              <li>Pepsi</li><br></br>
+              <li>Jack Daniels</li><br></br>
+              <li>Cocacola</li>
+            </ul>
+          </div>
           </Drawer>
 
     </div>
