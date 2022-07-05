@@ -10,10 +10,6 @@ function App() {
       alt='background'
       />
       <Navbar/>
-      {/* <img className='app-bg'
-      src='https://wallpapercave.com/wp/VYGMAH5.jpg'
-      alt='background'
-      />
       <img className='app-bg'
       src='https://wallpapercave.com/wp/VYGMAH5.jpg'
       alt='background'
@@ -21,7 +17,11 @@ function App() {
       <img className='app-bg'
       src='https://wallpapercave.com/wp/VYGMAH5.jpg'
       alt='background'
-      /> */}
+      />
+      <img className='app-bg'
+      src='https://wallpapercave.com/wp/VYGMAH5.jpg'
+      alt='background'
+      />
     </div>
   );
 }
