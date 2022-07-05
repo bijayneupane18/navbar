@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
+
  
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       alt='background'
       />
       <Navbar/>
-      <img className='app-bg'
+      {/* <img className='app-bg'
       src='https://wallpapercave.com/wp/VYGMAH5.jpg'
       alt='background'
       />
@@ -21,7 +22,7 @@ function App() {
       <img className='app-bg'
       src='https://wallpapercave.com/wp/VYGMAH5.jpg'
       alt='background'
-      />
+      /> */}
     </div>
   );
 }
