@@ -1,0 +1,10 @@
+.app{
+  margin: 0 auto;
+  /* background-color: rgb(154, 132, 132); */
+}
+.app-bg{
+  width: 100%;
+  height: fit-content;
+  z-index: -1;
+}
+
